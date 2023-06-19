@@ -10,9 +10,11 @@ int main(void)
 
 	c = 'a';
 	while 
-		(c <= 'z') {
+		(c <= 'z') 
+		{
 			putchar (c);
-			c++;}
+			c++;
+		}
 	putchar('\n');
 	return (0);
 }	
